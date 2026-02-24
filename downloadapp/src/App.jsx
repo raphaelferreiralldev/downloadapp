@@ -6,15 +6,13 @@ function App() {
   const handleDownload = () => {
     setDownloading(true);
     setTimeout(() => {
-      // Simulate download link or actually trigger download
       const link = document.createElement('a');
-      link.href = '/app-release.apk'; // placeholder
+      link.href = import.meta.env.BASE_URL + 'app-release.apk';
       link.download = 'app-release.apk';
-      // document.body.appendChild(link);
-      // link.click();
-      // document.body.removeChild(link);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
       setDownloading(false);
-      alert('Download started!');
     }, 1500);
   };
 
