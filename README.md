@@ -1,6 +1,6 @@
 # Download App
 
-Chat with a free AI model via Open Router API. (compatível com android)
+Converse com um modelo de IA gratuito via Open Router API. (compatível com android)
 
-## 📲 [Download Here](https://raphaelferreiralldev.github.io/downloadapp/)
+## 📲 [Download](https://raphaelferreiralldev.github.io/downloadapp/)
 
